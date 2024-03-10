@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A Simple Home Page Created By Student for a challenge in devchallenges.io">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple HomePage</title>
 </head>
+
 <body>
-    <img src="assets/alarado-icon-homepage.svg" alt="">
-    <img src="assets/Done_ring_round_fill.svg" alt="">
-    <img src="assets/hero-image-simple-homepage.png" alt="">
-    <img src="assets/Moon_fill.svg" alt="">
-    <img src="assets/Moon_fill_light.svg" alt="">
-    <img src="assets/Sun_fill.svg" alt="">
+    <div class="container">
+        <header class="headermain">
+            <img src="assets/alarado-icon-homepage.svg" alt="Logo Of HomePage"></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" style="color: black;">About Us</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Resource</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="darktheme">
+                <img id="moonbtn" src="assets/Moon_fill.svg" alt="Moon Icon indicates is mode dark mode">
+                <img src="assets/Moon_fill_light.svg" alt="Moon Icon indicates dark mode desactivated">
+                <img id="sunbtn"  src="assets/Sun_fill.svg" alt="Sun indicates light mode">
+            </div>
+        </header>
+        <div class="maincontent">
+            <main>
+                <span class="quote">😎 SIMPLE WAY TO COMMUNICATE</span>
+                <h1 id="header" class="mainheader">Actions for Accessibility in Design</h1>
+                <p class="mainp">The fastest way to build and deploy websites with resusable components.</p>
+                <button class="btn">GET STARTED</button>
+                <a href="#" class="maina">Get Live Demo</a>
+                <br>
+                <p id="aprov" class="aprovs"><img src="assets/Done_ring_round_fill.svg" alt="Done Check Icon ">No credit card
+                    required</p>
+                <p id="aprov2" class="aprovs"><img src="assets/Done_ring_round_fill.svg" alt="Done Check Icon">No software to
+                    install</p>
+            </main>
+            <section class="contentimage">
+                <img class="mainimage" src="assets/hero-image-simple-homepage.png"
+                    alt="Main Image For Decoration In HomePage">
+            </section>
+        </div>
+    </div>
+    <script src="java.js"></script>
 </body>
+
 </html>
