@@ -124,7 +124,7 @@ body{
         grid-template-columns: 1fr;
         grid-template-areas: 
         " image  "
-        "content  "
+        " content  "
         ;
     }
     
