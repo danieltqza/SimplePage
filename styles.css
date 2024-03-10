@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    width: 100vw;
+    width: 97vw;
 }
 
 .container .navbar li{
@@ -73,7 +73,7 @@ body{
 }
 
 .contentimage .mainimage{
-    width: 590px;
+    width: 526px;
     grid-area: image;
 }
 
