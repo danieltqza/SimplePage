@@ -7,6 +7,10 @@ body{
     overflow: hidden;
 }
 
+.container{
+    width: 1280px;
+}
+
 .container .navbar li{
     list-style-type: none;
 }
@@ -23,6 +27,11 @@ body{
     justify-content: space-between;
     align-content: center;
     margin-bottom: 50px;
+    width: 100%;
+}
+
+.container .headermain .darktheme{
+    align-self: center;
 }
 
 .headermain .navbar li{
@@ -103,6 +112,8 @@ body{
     }
 
     .container .logomain{
+        width: 33px;
+        height: 20px;
         width: 25%;
     }
     
