@@ -1,5 +1,5 @@
 body{
-    margin: 30px 40px;
+    margin: 18px 40px;
     padding: 0;
     box-sizing: border-box;
     background-color: #F2F9FF;
@@ -7,9 +7,6 @@ body{
     overflow: hidden;
 }
 
-.container{
-    width: 1280px;
-}
 
 .container .navbar li{
     list-style-type: none;
