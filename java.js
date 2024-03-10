@@ -27,10 +27,12 @@ let aprov2 = document.getElementById('aprov2')
     sunbtn.addEventListener('click', function() {
         if (background){
             body.style.backgroundColor = '#111629'
+            moonbtn.hidden = false
             header.style.color = 'white';
         } else{
             body.style.backgroundColor = '#F2F9FF'
             header.style.color = '#223343'
+            moonbtn.hidden = false
             aprov.style.color = 'black';
             aprov2.style.color = 'black';
         }
