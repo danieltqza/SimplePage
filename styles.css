@@ -34,7 +34,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    "mainheader  image "
+    "content  image "
     ;
 }
 
@@ -90,9 +90,97 @@ body{
     cursor: pointer;
 }
 
-@media (max-width:700px){
-    .container{
-        width: 100px;
+@media (max-width:700px){ /*Es como usar <= */
+    body{
+        margin: 10px 20px;
+    }
+    
+    .container .logomain{
+        width: 90px;
+    }
+    
+    .container .navbar a{
+        color:  #6A778C;
+        padding: 1px 5px;
+        font-weight: bold;
+        font-size: 0.5rem;
+        text-decoration: none;
+    }
+    
+    .headermain{
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .headermain .navbar li{
+        display: inline;
+    }
+    
+    
+    .maincontent{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        " image  "
+        "content  "
+        ;
+    }
+    
+    .maincontent .content{
+        grid-area: content;
+    }
+
+    .maincontent .quote{
+        color: #223343;
+        margin-bottom: -10px;
+        font-weight: bold;
+    }
+    
+    .maincontent .mainheader{
+        width: 400px;
+        margin-top: 10px;
+        font-size: 40px;
+        color: #223343;
+    }
+    
+    .maincontent .mainp{
+        color: #677389;
+        font-size: 18px;
+        width: 500px;
+    }
+    
+    .maincontent .aprovs{
+        display: inline-flex;
+    }
+    
+    .contentimage .mainimage{
+        width: 300px;
+        grid-area: image;
+    }
+    
+    .maincontent .btn{
+        background-color: #2B4ED0;
+        color: white;
+        width: 200px;
+        height: 50px;
+        border: 1px solid #2B4ED0;
+        border-radius: 10px;
+        margin-right: 30px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .maincontent .maina{
+        font-size: 20px;
+        color: #284DCF;
+        font-weight: bold;
+    }
+    
+    .container .moonbtn{
+        cursor: pointer;
     }
 
 }
