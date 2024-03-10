@@ -102,7 +102,7 @@ body{
 
 @media (max-width:700px){ /*Es como usar <= */
     body{
-        margin: 6px 50px;
+        margin: 6px 30px;
     }
     
     .container{
